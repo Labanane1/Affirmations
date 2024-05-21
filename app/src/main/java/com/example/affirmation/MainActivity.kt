@@ -16,6 +16,7 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.material3.Text
+import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.layout.padding
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.tooling.preview.Preview
@@ -45,7 +46,7 @@ fun AffirmationCard(affirmation: Affirmation, modifier: Modifier = Modifier) {
     }
 }
 @Composable
-fun AffirmationList(affirmationList: List<Affirmation>) {
+fun AffirmationList(affirmationList: List<Affirmation>, modifier: Modifier = Modifier) {
 
 }
 @Preview
