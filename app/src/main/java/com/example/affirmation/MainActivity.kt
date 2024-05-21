@@ -44,8 +44,12 @@ fun AffirmationCard(affirmation: Affirmation, modifier: Modifier = Modifier) {
         }
     }
 }
+@Composable
+fun AffirmationList(affirmationList: List<Affirmation>) {
+
+}
 @Preview
 @Composable
 private fun AffirmationCardPreview() {
-
+    AffirmationCard(Affirmation(R.string.affirmation1, R.drawable.image1))
 }
